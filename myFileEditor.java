@@ -38,7 +38,7 @@ public class myFileEditor
 				sbfContent.append(_line + "\r\n");
 
 				// Output LOG: Content + Comment Count removed Space
-				sbLog.append(String.format("%1$05d : %2$s ", i, _line));
+				sbLog.append(String.format("%1$05d;%2$s ", i, _line));
 
 				int lineDiff = lineLenght - lineLenghtTrimed;
 				if (lineDiff > 0)
